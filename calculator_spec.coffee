@@ -1,13 +1,13 @@
 module 'Calculator'
 
 test 'Caluclator is a function', ->
-	calc = CALC.caluclator
+	calc = CALC.calculator
 	expect 1
 
 test 'BaseSimple caluclates correctly', ->
 	expect 1
 
-	calc = CALC.caluclator
+	calc = CALC.calculator
 
 	result = calc.baseSimple()
 	test = (0.5 + 0.5 + 0.5) * (1 - 0.5)

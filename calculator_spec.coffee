@@ -12,4 +12,5 @@ test 'BaseSimple caluclates correctly', ->
 	result = calc.baseSimple()
 	test = (0.5 + 0.5 + 0.5) * (1 - 0.5)
 
+	# Compare the result from our method against our test variable
 	equal result, test, "BaseSimple calculation result: #{test} === #{result}"
